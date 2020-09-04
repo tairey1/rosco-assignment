@@ -1,0 +1,27 @@
+.traffic-table {
+    margin: auto;
+    border-spacing: 0px;
+    width: 91%;
+    .traffic-table-header {
+        font-weight: bold;
+        background-color: #00D9FF;
+    }
+    .empty {
+        border: none;
+        background-color: #fff;
+        width: 10px;
+    }
+    td {
+        padding: 3px;
+    }    
+    .name-cell {
+        border-left: 1px solid grey;
+    }
+    .traffic-cell {
+        border-right: 1px solid grey;
+        width: 33%;
+    }
+    .total-row {
+        background-color: #00D9FF;
+    }
+}

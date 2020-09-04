@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import datapage from './datapage.png';
 import './App.css';
+import Table from './table/Table';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={datapage} className='header' alt='data page'/>
+      <div className='table'>
+        <Table/>
+      </div>
+      <div className='legend'>
+        <div className='danger block'></div>
+        <div className='description'> : Group contains unit with usage over the limit {'(100 MB)'}</div>
+        <br/>
+        <div className='warning block'></div>
+        <div className='description'> : Group contains unit with usage approaching the limit {'(>90 MB)'}</div>
+      </div>
     </div>
   );
 }

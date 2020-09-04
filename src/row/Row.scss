@@ -1,0 +1,32 @@
+.data-row {
+    .open-table {
+        margin-left: 10px;
+        float: right;
+        width: 30px;
+    }
+    .vehicle-header {
+        font-weight: bold;
+        border-left: 1px solid grey;
+    }
+    .vehicle-row, .usage-row {
+        border-left: 1px solid grey;
+    }
+}
+
+.traffic-body {
+    .row-subheader {
+        font-weight: 500;
+        background-color: #99DAFF;
+    }
+}
+
+
+.warning {
+    background-color: #EEEE37;
+}
+.danger {
+    background-color: #FF2818;
+}
+.odd-row {
+    background-color: #99FFFA;
+}
